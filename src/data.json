@@ -1,0 +1,107 @@
+{
+    "CaKru": [
+        {
+            "NIM": 13519118,
+            "Nama": "Cynthia Rusadi",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Orang sibuk, makannya wawan telat alasannya rapat dulu"
+                },
+                {
+                    "id": 2,
+                    "value": "Kalau tiba tiba dapet gajah mau diapain? Mau dipelihara meski mahal ngurusnya"
+                }
+            ]
+        },
+        {
+            "NIM": 13519191,
+            "Nama": "Kevin Ryan",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Movie paling lucu? Pulp Fiction"
+                },
+                {
+                    "id": 2,
+                    "value": "Nyambi nugas probstat ya soalnya deadlinenya besok"
+                }
+            ]
+        },
+        {
+            "NIM": 13519019,
+            "Nama": "Jason Stanley Yoman",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Kalau dikasih 3 permintaan mau apa? Superpower ngontrol orang, bisa ga habis2 energi, dan unlimited money"
+                },
+                {
+                    "id": 2,
+                    "value": "Ternyata di Linux gaada noise cancelling"
+                }
+            ]
+        },
+        {
+            "NIM": 13519121,
+            "Nama": "Michael Philip Gunadi",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Setup greenscreen di belakang buat streamer bang?"
+                },
+                {
+                    "id": 2,
+                    "value": "Worst habit: Boros, klo udh pengen mesti mahal pasti beli"
+                }
+            ]
+        }
+    ],
+
+    "Kru": [
+        {
+            "NIM": 13519002,
+            "Nama": "Steven Nataniel Kodyat",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Lagi ngewibu promised neverland, sama nonton Wanda Vision di disneyplus"
+                },
+                {
+                    "id": 2,
+                    "value": "IP bajak film: 85.114.138.56, 209.97.170.87, 103.194.171.18"
+                },
+                {
+                    "id": 3,
+                    "value": "Tubes sister biasa diambil dari praktikum luar. Untuk yang bochs ini bakal ada 5 milestone, terakhirnya ada job scheduling"
+                }
+            ]
+        },
+        {
+            "NIM": 13519079,
+            "Nama": "Jesson Gosal Yo",
+            "URL": "../assets/wawancara1.jpg",
+            "Date": "2021-03-01",
+            "Catatan": [
+                {
+                    "id": 1,
+                    "value": "Lagi ngewibu karakai jozu no takagi san, main game divinity 2"
+                },
+                {
+                    "id": 2,
+                    "value": "Punya penyalaman magang nih, dulu diajak sama temen ikut magang, karena keberatan kalau sendiri (dibagi workload). Diakhir udh gakuat terus digantikan kakak kelas yg workloadnya 3x tapi gajinya tetep sama"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+
+.background{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -80vw;
+}
+.background-cakru{
+  background-image: url("./assets/beidou.png");
+  background-size: 50vw 100vw;
+  width: 50vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.background-kru{
+  background-image: url("./assets/ningguang.jpg");
+  background-size: 50vw 100vw;
+  width: 50vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container-cakru{
+  width: 50vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-kru{
+  width: 50vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.custom-bg{
+  width: 1000px;
+  height: 1000px;
+}
+.background1{
+  background-color: red;
+  width: 50vw;
+  height: 200vw;
+  z-index: -1;
+}
+.background2{
+  background-color:black;
+  width: 50vw;
+  height: 200vw;
+  z-index: -1;
+}

@@ -8,25 +8,23 @@ class Post extends React.Component{
         this.state = {
             rater: "",
             liked: false,
-            disliked: false,
+            disliked: true,
             raterkey: ""
         }
     }
     componentDidMount(){
-
+        
     }
     getRater = async () => {
         Axios.get(`https://arc-final-project-default-rtdb.firebaseio.com/posts/${this.props.id}/ratings/.json`).
         then(res => {
-            for(var key in res.data){
-                if(res.data[key].rater === this.state.rater){
-                    this.setState({raterkey: key});
-                    if(res.data[key].score === 0){
-                        this.setState({disliked: true});
-                    }else{
-                        this.setState({liked: true});
-                    }
+            if(this.state.rater in res.data){
+                if(res.data[this.state.rater] === 1){
+                    this.disliked = false;
+                    this.liked = true;
                 }
+            }else{
+                Axios.put(`https://arc-final-project-default-rtdb.firebaseio.com/posts/${this.props.id}/ratings/.json`, {})
             }
         })
     }
@@ -36,11 +34,24 @@ class Post extends React.Component{
     handleLike = async () => {
         this.setState({liked: true});
         this.setState({disliked: false});
+        const updatedpost = {
+            author: this.props.post.author,
+            title: this.props.post.title,
+            points: this.props.post.points+1,
+            content: this.props.post.content
+        }
+        Axios.put(`https://arc-final-project-default-rtdb.firebaseio.com/posts/${this.props.id}/.json`, updatedpost)
     }
     handleDislike = async () => {
         this.setState({disliked: true});
         this.setState({liked: false});
-
+        const updatedpost = {
+            author: this.props.post.author,
+            title: this.props.post.title,
+            points: this.props.post.points-1,
+            content: this.props.post.content
+        }
+        Axios.put(`https://arc-final-project-default-rtdb.firebaseio.com/posts/${this.props.id}/.json`, updatedpost)
     }
     render(){
         return (
